@@ -84,8 +84,13 @@ html {
 }
 
 #map { 
-    height: 180px; 
     margin-top: 40px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 80%;
 }
 
 
