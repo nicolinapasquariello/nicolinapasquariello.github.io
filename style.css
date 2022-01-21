@@ -1,0 +1,106 @@
+@font-face {
+    font-family: arbonne;
+    src: url(font/arbonne.ttf);
+  }
+ 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.navbar{
+    font-family: arbonne;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+ .nav-link {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
+.carousel .carousel-item {
+    max-height:500px;
+}
+
+.carousel-item img {
+    object-fit:cover;
+    max-height:500px;
+    opacity: 0.6;
+}
+
+.carousel-caption h5{
+    font-size: 90px;
+    font-family: arbonne;
+    letter-spacing: 3px;
+}
+
+.carousel-caption p{
+    font-size: 70px;
+    font-family: arbonne;
+    margin-bottom: 100px;
+    letter-spacing: 3px;
+}
+
+#introduction-box{
+    margin-top: 20px;
+    background-color: rgb(221, 221, 221);
+    background-image: url('rami-opacity2.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.introduction-text{
+    margin-top:30px;
+    margin-right:40px;
+}
+
+#spazi-verdi{
+    margin-top: 20px;
+}
+
+.spazi-verdi-titolo{
+    text-align: center;
+    font-family: arbonne;
+    font-size: 80px;
+    letter-spacing: 4px;
+}
+
+.spazi-verdi-sottotitolo{
+    text-align: left;
+    font-family: arbonne;
+    font-size: 50px;
+    letter-spacing: 4px;
+    color: #BA024F;
+}
+
+.piccoli-spazi{
+    margin-top:50px;
+}
+
+#map { 
+    height: 180px; 
+    margin-top: 40px;
+}
+
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #BA024F;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+ }
+
+.footer-item{
+    margin:20px;
+}
