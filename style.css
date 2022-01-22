@@ -1,7 +1,9 @@
 @font-face {
     font-family: arbonne;
     src: url(font/arbonne.ttf);
-  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
  
 html {
     position: relative;
@@ -16,13 +18,12 @@ html {
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
- }
+}
 
  .nav-link {
     margin-right: 30px;
     margin-left: 30px;
 }
-
 
 .carousel .carousel-item {
     max-height:500px;
@@ -58,6 +59,26 @@ html {
 .introduction-text{
     margin-top:30px;
     margin-right:40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#filosofia{
+    margin-top:20px;
+}
+
+.filosofia-titolo{
+    text-align: center;
+    font-family: arbonne;
+    font-size: 80px;
+    letter-spacing: 4px;
+}
+
+.filosofia-sottotitolo{
+    text-align: left;
+    font-family: arbonne;
+    font-size: 50px;
+    letter-spacing: 4px;
+    color: #BA024F;
 }
 
 #spazi-verdi{
@@ -104,7 +125,7 @@ html {
     color: white;
     text-align: center;
     overflow: hidden;
- }
+}
 
 .footer-item{
     margin:20px;

@@ -20,51 +20,44 @@
     <link rel="stylesheet" href="style.css">
     <style id="css" type="text/css"></style>
   </head>
+
+  <script>
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4) {
+              if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+              if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }      
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /*exit the function:*/
+          return;
+        }
+      }
+    };
+    </script>
+
   <body>
-      <!--NAVBAR-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img src="immagini/logo-vecchio.png" width="auto" height="35" alt="Logo Nicolina Pasquariello - Paesaggista">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Spazi Verdi</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Filosofia
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Chi è il Paesaggista</a></li>
-                  <li><a class="dropdown-item" href="#">Cos'è il Paesaggio</a></li>
-                  <li><a class="dropdown-item" href="#">Associazione Italiana Architetti del Paesaggio</a></li>
-                  <li><a class="dropdown-item" href="#">Convenzione Europea del Paesaggio</a></li>
-                  <li><a class="dropdown-item" href="#">Educazione ambientale del Paesaggio</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Curriculum</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contatti</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      
+    <div w3-include-html="navbar.html"></div> 
+
+    <script>
+    includeHTML();
+    </script>
 
      
   <!-------------------------------CAROUSEL----------------------------------------->
@@ -112,13 +105,13 @@
 <!---------------------------------------------------INTRODUCTION-BOX--------------------------------------------------------------->
     <div id="introduction-box" class="container-fluid">
         <div class="row">
-            <div class="col-3" >
+            <div class="col-6 col-md-3" >
                 <div class="m-auto my-3 mx-3">
                     <img src="immagini/Zaha-Hadid-2.jpg" style="width:100%">
                 </div>
             </div>
 
-            <div class="col-9">
+            <div class="col-md-9">
                 <div class="introduction-text">
                     <h4>Nicolina Pasquariello</h4>
                     <p>What is Lorem Ipsum?
@@ -130,6 +123,18 @@
             </div>
         </div>
     </div>
+
+<!---------------------------------------------------------FILOSOFIA------------------------------------------------------------>
+
+    <div id="filosofia" class="container">
+      <h2 class="filosofia-titolo">Filosofia</h2>
+      <h3 class="filosofia-sottotitolo">Chi è il Paesaggista?</h3>
+      <h3 class="filosofia-sottotitolo">Cos'è il Paaesaggio?</h3>
+      <h3 class="filosofia-sottotitolo">Associazione Italiana Architetti del Paesaggio</h3>
+      <h3 class="filosofia-sottotitolo">Convenzione Europea del Paesaggio</h3>
+      <h3 class="filosofia-sottotitolo">Educazione ambientale del Paesaggio</h3>
+    </div>
+
 
 <!-------------------------------------------------------------SPAZI-VERDI------------------------------------------------------>
 
