@@ -25,9 +25,10 @@ html {
     margin-left: 30px;
 }
 
-.carousel .carousel-item {
-    max-height:500px;
+.carousel .carousel-item { 
+    width: 100%;
 }
+
 
 .carousel-item img {
     object-fit:cover;
@@ -116,6 +117,37 @@ html {
     margin-right: auto;
     margin-bottom: 40px;
     width: 80%;
+}
+
+#contatti{
+    background-image: url('immagini/garden-design4.jpg');
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contatti-sezione{
+    background-color: white;
+    width: 700px;
+}
+
+.contatti-titolo{
+    text-align: center;
+    font-family: arbonne;
+    font-size: 80px;
+    letter-spacing: 4px;
+}
+
+
+.contatti-sottotitolo{
+    text-align: center;
+    font-family: arbonne;
+    font-size: 50px;
+    letter-spacing: 4px;
+    color: #BA024F;
 }
 
 
