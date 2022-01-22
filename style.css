@@ -51,7 +51,7 @@ html {
 #introduction-box{
     margin-top: 20px;
     background-color: rgb(221, 221, 221);
-    background-image: url('rami-opacity2.png');
+    background-image: url('immagini/rami-opacity2.png');
     background-repeat: no-repeat;
     background-position: right center;
 }
@@ -102,6 +102,10 @@ html {
 
 .piccoli-spazi{
     margin-top:50px;
+}
+
+.card-body{
+    background-color: rgb(221, 221, 221);
 }
 
 #map { 
