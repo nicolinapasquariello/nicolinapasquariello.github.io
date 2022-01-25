@@ -3,11 +3,20 @@
     src: url(font/arbonne.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
- 
+@font-face {
+    font-family: roboto;
+    src: url(font/Roboto-Regular.ttf);
+}
+
+
 html {
     position: relative;
     min-height: 100%;
+    height: 100%;
+}
+
+p{
+    font-family: roboto;
 }
 
 .navbar{
@@ -60,11 +69,11 @@ html {
 .introduction-text{
     margin-top:30px;
     margin-right:40px;
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 #filosofia{
-    margin-top:20px;
+    margin-top:50px;
 }
 
 .filosofia-titolo{
@@ -82,8 +91,12 @@ html {
     color: #BA024F;
 }
 
+#paesaggista, #paesaggio, #associazione, #convenzione, #educazione {
+    margin-top: 60px;
+}
+
 #spazi-verdi{
-    margin-top: 20px;
+    margin-top: 90px;
 }
 
 .spazi-verdi-titolo{
@@ -101,8 +114,8 @@ html {
     color: #BA024F;
 }
 
-.piccoli-spazi{
-    margin-top:50px;
+#grandi-spazi, #piccoli-spazi{
+    margin-top:60px;
 }
 
 .card-body{
@@ -119,50 +132,80 @@ html {
     width: 80%;
 }
 
-#contatti{
-    background-image: url('immagini/garden-design4.jpg');
-    background-repeat: no-repeat;
-    background-position:  center;
-    background-size: cover;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-#contatti-sezione{
-    background-color: white;
-    width: 700px;
-}
 
 .contatti-titolo{
     text-align: center;
-    font-family: arbonne;
-    font-size: 80px;
+    font-family: arbonne !important;
+    font-size: 60px;
     letter-spacing: 4px;
+    margin-top:90px;
 }
-
 
 .contatti-sottotitolo{
     text-align: center;
-    font-family: arbonne;
-    font-size: 50px;
+    font-family: arbonne !important;
+    font-size: 40px;
     letter-spacing: 4px;
     color: #BA024F;
 }
 
+.contatti{
+    background-image: url('immagini/garden-design4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    
+}
 
-.footer {
-    position: absolute;
+.contatti-info{
+    font-family: roboto;
+    
+    margin-top: 30px;
+}
+
+
+
+.footer { 
+    position:static;
     left: 0;
-    bottom: 0;
+    bottom:0;
     width: 100%;
-    height: auto;
     background-color: #BA024F;
     color: white;
     text-align: center;
-    overflow: hidden;
+    font-family: roboto;
+    padding: 5px;
+    font-size: 11px;
+    padding-top: 15px; 
+    padding-bottom: 3px;
+    height: auto !important; 
 }
+  
+  
+.toindex {
+    max-width: 100%;
+    height: auto;
+    width:30px;
+    margin-top:0px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+} 
 
-.footer-item{
-    margin:20px;
+.instagram {
+    max-width: 100%;
+    height: auto;
+    width:30px;
+    margin-top:0px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
 }
+  
+#logos{
+    text-align: center;
+}
+  
