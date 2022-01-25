@@ -90,18 +90,16 @@
                 <div class="col-md-3 d-none d-md-block"></div>
             </div>
 
-            <div id="map-contatti"></div>
+            <div id="map"></div>
         </div>
     </body>
 
     <script>
-        var mymap = L.map('map-contatti').setView([42.8573454,13.594972], 13.08);
+        var mymap = L.map('map').setView([42.8573454,13.594972], 13.08);
               var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                       maxZoom: 18,
                       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               }).addTo(mymap);
     
-        var marker = L.marker([42.9500434,13.8696213]).addTo(map);
-        marker.bindPopup("<b>Ristorante</b><br>I am a popup.").openPopup();
       </script>    
 </html>
