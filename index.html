@@ -12,6 +12,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+    <!--da controllare: link per navar auto close-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+
     <!--Leaflet - mappa-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
@@ -69,10 +73,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Home</a>
+          <a class="nav-link active single" aria-current="page" href="index.html" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Home</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#filosofia" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Filosofia
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -95,10 +99,10 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">Curriculum</a>
+          <a class="nav-link single" href="">Curriculum</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contatti.html">Contatti</a>
+          <a class="nav-link single" href="contatti.html">Contatti</a>
         </li>
       </ul>
     </div>
@@ -172,9 +176,7 @@
 <!---------------------------------------------------------FILOSOFIA------------------------------------------------------------>
 
     <div id="filosofia" class="container">
-      <div class="container">
-        <h2 class="filosofia-titolo">Filosofia</h2>
-      </div>
+      <!--<h2 class="filosofia-titolo">Filosofia</h2>-->
       <div class="container" id="paesaggista">
         <h3 class="filosofia-sottotitolo">Chi è il Paesaggista?</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hac habitasse platea dictumst quisque sagittis purus sit amet volutpat. Morbi non arcu risus quis varius quam quisque id diam. Maecenas ultricies mi eget mauris pharetra et ultrices. Elementum facilisis leo vel fringilla est. Tempor commodo ullamcorper a lacus vestibulum sed. Nunc non blandit massa enim. Odio ut sem nulla pharetra. Nunc id cursus metus aliquam eleifend mi in. Pulvinar mattis nunc sed blandit libero volutpat. Arcu vitae elementum curabitur vitae nunc sed. Nulla pellentesque dignissim enim sit amet venenatis urna.</p>
@@ -191,7 +193,7 @@
         <h3 class="filosofia-sottotitolo">Convenzione Europea del Paesaggio</h3>
         <p>Luctus accumsan tortor posuere ac ut consequat. Eget gravida cum sociis natoque penatibus et. Massa tincidunt dui ut ornare lectus sit amet est. Ac ut consequat semper viverra nam libero justo laoreet sit. Mauris cursus mattis molestie a iaculis at erat pellentesque. Convallis posuere morbi leo urna molestie. Laoreet suspendisse interdum consectetur libero id faucibus nisl. Quis lectus nulla at volutpat diam ut venenatis tellus in. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Quam id leo in vitae turpis. Purus in mollis nunc sed id semper risus in hendrerit. Mattis molestie a iaculis at erat pellentesque adipiscing. Pulvinar pellentesque habitant morbi tristique senectus et netus et. Risus quis varius quam quisque id. Massa vitae tortor condimentum lacinia quis. Bibendum est ultricies integer quis auctor elit sed vulputate. Cursus risus at ultrices mi. Quis risus sed vulputate odio ut enim. Eget dolor morbi non arcu risus quis varius. Quis blandit turpis cursus in hac.</p>
       </div>
-      <div class="container" id="educazione">
+      <div class="container" id="educazione" style="margin-bottom: 60px !important;">
         <h3 class="filosofia-sottotitolo">Educazione ambientale del Paesaggio</h3>
         <p>Morbi tincidunt ornare massa eget egestas. Morbi leo urna molestie at elementum eu facilisis sed. Suscipit tellus mauris a diam maecenas sed. Viverra ipsum nunc aliquet bibendum enim facilisis. Id interdum velit laoreet id donec ultrices tincidunt. Consequat nisl vel pretium lectus quam id leo in vitae. Dictum non consectetur a erat nam at lectus urna duis. Vitae auctor eu augue ut lectus arcu bibendum at. Nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Diam volutpat commodo sed egestas. Urna duis convallis convallis tellus id interdum.</p>
       </div>
@@ -221,5 +223,16 @@
     includeHTML();
   </script>-->
 
+  <!--autoclose navbar-->
+  <script>
+    $( document ).ready(function() {
+        $('.dropdown-item').click(function(){
+            $('.navbar div').removeClass('show');
+        }) 
+        $('.single').click(function(){
+            $('.navbar div').removeClass('show');
+        })
+    })  
+</script>
   
 </html>

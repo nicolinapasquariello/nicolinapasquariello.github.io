@@ -15,6 +15,8 @@ html {
     height: 100%;
 }
 
+body { padding-top: 70px; }
+
 p{
     font-family: roboto;
 }
@@ -72,27 +74,30 @@ p{
     
 }
 
-#filosofia{
-    margin-top:50px;
+#filosofia p{
+    margin-bottom: 0px;
 }
 
-.filosofia-titolo{
+
+.filosofia-titolo {
     text-align: center;
     font-family: arbonne;
     font-size: 80px;
     letter-spacing: 4px;
 }
 
+
+
 .filosofia-sottotitolo{
     text-align: left;
     font-family: arbonne;
-    font-size: 50px;
-    letter-spacing: 4px;
+    font-size: 40px;
+    letter-spacing: 3px;
     color: #BA024F;
 }
 
 #paesaggista, #paesaggio, #associazione, #convenzione, #educazione {
-    margin-top: 60px;
+    padding-top: 70px;
 }
 
 #spazi-verdi{
