@@ -13,66 +13,68 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
-        <!--Leaflet - mappa-->
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
-        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-        
         <link rel="stylesheet" href="style.css">
         <style id="css" type="text/css"></style>
+
+       <!--Leaflet - mappa-->
+       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+       integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+       crossorigin=""/>
+       <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+       integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+       crossorigin=""></script>
+        
+        
     </head>
 
     <body >
         <!--NAVBAR-->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="immagini/logo-vecchio.png" width="auto" height="35" alt="Logo Nicolina Pasquariello - Paesaggista">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="immagini/logo-vecchio.png" width="auto" height="35" alt="Logo Nicolina Pasquariello - Paesaggista">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link single" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Filosofia
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#filosofia" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Filosofia
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#paesaggista">Chi è il Paesaggista?</a></li>
-                    <li><a class="dropdown-item" href="#paesaggio">Cos'è il Paesaggio?</a></li>
-                    <li><a class="dropdown-item" href="#associazione">Associazione Italiana Architetti del Paesaggio</a></li>
-                    <li><a class="dropdown-item" href="#convenzione">Convenzione Europea del Paesaggio</a></li>
-                    <li><a class="dropdown-item" href="#educazione">Educazione ambientale del Paesaggio</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="spazi-verdi.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Progetti
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#grandi-spazi">Grandi spazi</a></li>
-                    <li><a class="dropdown-item" href="#piccoli-spazi">Piccoli spazi</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#map">Mappa</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Curriculum</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contatti</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-                </ul>
-            </div>
-            </div>
-        </nav>  
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="index.html#paesaggista">Chi è il Paesaggista?</a></li>
+              <li><a class="dropdown-item" href="index.html#paesaggio">Cos'è il Paesaggio?</a></li>
+              <li><a class="dropdown-item" href="index.html#associazione">Associazione Italiana Architetti del Paesaggio</a></li>
+              <li><a class="dropdown-item" href="index.html#convenzione">Convenzione Europea del Paesaggio</a></li>
+              <li><a class="dropdown-item" href="index.html#educazione">Educazione ambientale del Paesaggio</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="progetti.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Progetti
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="progetti.html#grandi-spazi">Grandi spazi</a></li>
+              <li><a class="dropdown-item" href="progetti.html#piccoli-spazi">Piccoli spazi</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="progetti.html#map">Mappa</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled single" href="" aria-disabled="true">Curriculum</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active single" href="contatti.html">Contatti</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> 
 
         <div class="container-fluid h-100">
             <div class="row contatti h-100">
@@ -110,10 +112,18 @@
     </body>
 
     <script>
-        var mymap = L.map('map').setView([42.8573454,13.594972], 13.08);
-              var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                      maxZoom: 18,
-                      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-              }).addTo(mymap);
-      </script>    
+        var map = L.map('map').setView([42.8555739,13.5742588], 14.5);
+
+        var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 18,
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            accessToken: 'your.mapbox.access.token'
+        }).addTo(map);
+
+        var marker = L.marker([42.854658638521656, 13.575535428382029]).addTo(map);
+        marker.bindPopup("<b>Nicolina Pasquariello Paesaggista</b>");
+    </script>    
 </html>

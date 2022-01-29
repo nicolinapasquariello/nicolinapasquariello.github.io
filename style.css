@@ -45,6 +45,7 @@ p{
     object-fit:cover;
     max-height:500px;
     opacity: 0.6;
+    min-height: 500px;
 }
 
 .carousel-caption h5{
@@ -100,18 +101,18 @@ p{
     padding-top: 70px;
 }
 
-#spazi-verdi{
-    margin-top: 90px;
+#progetti{
+    margin-top: 30px;
 }
 
-.spazi-verdi-titolo{
+.progetti-titolo{
     text-align: center;
     font-family: arbonne;
     font-size: 80px;
     letter-spacing: 4px;
 }
 
-.spazi-verdi-sottotitolo{
+.progetti-sottotitolo{
     text-align: left;
     font-family: arbonne;
     font-size: 50px;
@@ -120,7 +121,7 @@ p{
 }
 
 #grandi-spazi, #piccoli-spazi{
-    margin-top:60px;
+    padding-top: 70px;
 }
 
 .card-body{
@@ -165,7 +166,6 @@ p{
 
 .contatti-info{
     font-family: roboto;
-    
     margin-top: 30px;
 }
 
@@ -213,4 +213,39 @@ p{
 #logos{
     text-align: center;
 }
-  
+
+
+
+@media (max-width: 767.98px) { 
+    .carousel-item img {
+        max-height:250px;
+        min-height: 250px;
+    }
+    .carousel-caption h5{
+        font-size: 45px;
+    }   
+    .carousel-caption p{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    #foto-personale{
+        display: none;
+    }
+
+    #introduction-box{
+      background-image: none;
+    }
+    .introduction-text{
+        margin-left:10px;
+        margin-right:5px;
+    }
+
+    .contatti-titolo{
+        font-size: 50px;
+        margin-top:30px;
+    }
+    .contatti-sottotitolo{
+      font-size: 35px;
+    }
+}
