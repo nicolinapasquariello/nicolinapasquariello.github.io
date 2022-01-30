@@ -71,9 +71,10 @@ p{
 }
 
 .introduction-text{
-    margin-top:30px;
-    margin-right:40px;
-    
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-left:20px;
+    margin-right:20px;
 }
 
 #filosofia p{
@@ -223,15 +224,16 @@ p{
         min-height: 250px;
     }
     .carousel-caption h5{
-        font-size: 35px;
+        font-size: 55px !important;
     }   
     .carousel-caption p{
-        font-size: 15px;
-        margin-bottom: 10px;
+        font-size: 40px !important;
+        margin-bottom: 120px !important;
+        margin-top: 10px !important;
     }
 
-    #foto-personale{
-        display: none;
+    .filosofia-sottotitolo{
+        font-size: 30px !important;
     }
 
     #introduction-box{
@@ -250,3 +252,4 @@ p{
       font-size: 35px;
     }
 }
+
