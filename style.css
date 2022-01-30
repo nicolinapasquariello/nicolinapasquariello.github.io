@@ -223,11 +223,11 @@ p{
         min-height: 250px;
     }
     .carousel-caption h5{
-        font-size: 45px;
+        font-size: 35px;
     }   
     .carousel-caption p{
-        font-size: 25px;
-        margin-bottom: 15px;
+        font-size: 15px;
+        margin-bottom: 10px;
     }
 
     #foto-personale{
