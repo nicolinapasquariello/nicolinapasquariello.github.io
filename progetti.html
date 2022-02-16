@@ -28,52 +28,75 @@
       
 
     <!--NAVBAR-->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
-      <img src="immagini/logo-vecchio.png" width="auto" height="35" alt="Logo Nicolina Pasquariello - Paesaggista">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link single" href="index.html">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Filosofia
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="index.html#paesaggista">Chi è il Paesaggista?</a></li>
-            <li><a class="dropdown-item" href="index.html#paesaggio">Cos'è il Paesaggio?</a></li>
-            <li><a class="dropdown-item" href="index.html#associazione">Associazione Italiana Architetti del Paesaggio</a></li>
-            <li><a class="dropdown-item" href="index.html#convenzione">Convenzione Europea del Paesaggio</a></li>
-            <li><a class="dropdown-item" href="index.html#educazione">Educazione ambientale del Paesaggio</a></li>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="immagini/logo-vecchio.png" width="auto" height="35" alt="Logo Nicolina Pasquariello - Paesaggista">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link single" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link single" href="filosofia.html">Filosofia e formazione</a>
+            </li>
+            <!--<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Filosofia
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="index.html#paesaggista">Chi è il Paesaggista?</a></li>
+                <li><a class="dropdown-item" href="index.html#paesaggio">Cos'è il Paesaggio?</a></li>
+                <li><a class="dropdown-item" href="index.html#associazione">Associazione Italiana Architetti del Paesaggio</a></li>
+                <li><a class="dropdown-item" href="index.html#convenzione">Convenzione Europea del Paesaggio</a></li>
+                <li><a class="dropdown-item" href="index.html#educazione">Educazione ambientale del Paesaggio</a></li>
+              </ul>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link active single" aria-current="page" href="progetti.html">Progetti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link single" href="attività.html">Attività</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link single"  data-bs-toggle="modal" data-bs-target="#contatti">Contatti</a>
+            </li>
           </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link active dropdown-toggle" href="progetti.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Progetti
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="progetti.html#grandi-spazi">Macro ambienti</a></li>
-            <li><a class="dropdown-item" href="progetti.html#piccoli-spazi">Micro ambienti</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="progetti.html#map">Mappa</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled single" href="" aria-disabled="true">Curriculum</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link single" href="contatti.html">Contatti</a>
-        </li>
-      </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Modal Contatti-->
+    <div class="modal fade" id="contatti" tabindex="-1" aria-labelledby="contattiLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contattiLabel">Contatti</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Se vuoi progettare o modificare il tuo spazio verde o se vuoi avere informazioni su corsi e  progetti educativi, contattami. Sarò felice di aiutarti nel percorso di educazione ambientale e fornirti tutte le informazioni di cui hai bisogno per curare il tuo spazio verde!
+              </p>
+              <ul>
+                <li>
+                  <a href="tel:+393460044120"> +39 3460044120</a>
+                </li>
+                <li>
+                  <a href="mailto:nicolina.pasquariello85@gmail.com">E-Mail</a> o <a href="mailto:nicolina.pasquariello@archiworldpec.it">Pec</a>
+                </li>
+              </ul>
+              <p>Sul mio profilo <a href="https://www.instagram.com/nicol_paesaggista/?hl=en" target="_blank">Instagram</a> puoi rimanere sempre aggiornato sulle novità e i progetti a cui lavoro.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</nav>
  
  
 <!-------------------------------------------------------------PROGETTI------------------------------------------------------>
@@ -124,7 +147,7 @@
                           </button>
                       </div>
                       <div class="card-body">
-                          <h5 class="card-title">Restyling Ristorante Il Bakkano</h5>
+                          <h5 class="card-title"><b>Restyling Ristorante Il Bakkano</b></h5>
                           <p class="card-text">Riqualificazione area esterna ristorante<br> San Benedetto del Tronto<br> 2019<br> Categoria: Giardini Business</p>
                           <!-- Button trigger modal -->
                           <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#ristorante-bakkano">
@@ -136,7 +159,7 @@
                             <div class="modal-dialog modal-dialog-centered modal-lg">
                               <div class="modal-content">
                                 <div class="modal-header">
-                                  <h5 class="modal-title" id="ristorante-bakkano-Label">Restyling Ristorante Il Bakkano</h5>
+                                  <h5 class="modal-title" id="ristorante-bakkano-Label"><b>Restyling Ristorante Il Bakkano</b></h5>
                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -216,7 +239,7 @@
                         </button>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Giardino incantato</h5>
+                        <h5 class="card-title"><b>Giardino incantato</b></h5>
                         <p class="card-text">Riqualificazione giardino familiare<br> Ascoli Piceno<br> 2018<br> Categoria: Giardini pensili</p>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#giardino-incantato">
@@ -228,7 +251,7 @@
                           <div class="modal-dialog modal-dialog-centered modal-lg">
                             <div class="modal-content">
                               <div class="modal-header">
-                                <h5 class="modal-title" id="giardino-incantato-Label">Giardino incantato</h5>
+                                <h5 class="modal-title" id="giardino-incantato-Label"><b>Giardino incantato</b></h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                               </div>
                               <div class="modal-body">
@@ -308,7 +331,7 @@
                         </button>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Un giardino per la famiglia P.</h5>
+                        <h5 class="card-title"><b>Un giardino per la famiglia P.</b></h5>
                         <p class="card-text">Riqualificazione giardino familiare<br> Ascoli Piceno<br> 2019<br> Categoria: Giardini privati</p>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#giardino-famigliaP">
@@ -320,7 +343,7 @@
                           <div class="modal-dialog modal-dialog-centered modal-lg">
                             <div class="modal-content">
                               <div class="modal-header">
-                                <h5 class="modal-title" id="giardino-famigliaP-Label">Un giardino per la famiglia P.</h5>
+                                <h5 class="modal-title" id="giardino-famigliaP-Label"><b>Un giardino per la famiglia P.</b></h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                               </div>
                               <div class="modal-body">
@@ -402,7 +425,7 @@
                         </button>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Giardino di campagna</h5>
+                        <h5 class="card-title"><b>Giardino di campagna</b></h5>
                         <p class="card-text">Descrizione<br> Ascoli Piceno<br> 2021<br> Categoria: Casolari di campagna</p>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#giardino-campagna">
@@ -414,7 +437,7 @@
                           <div class="modal-dialog modal-dialog-centered modal-lg">
                             <div class="modal-content">
                               <div class="modal-header">
-                                <h5 class="modal-title" id="giardino-campagna-Label">Giardino di campagna</h5>
+                                <h5 class="modal-title" id="giardino-campagna-Label"><b>Giardino di campagna</b></h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                               </div>
                               <div class="modal-body">
@@ -508,7 +531,7 @@
                       </button>
                   </div>
                   <div class="card-body">
-                      <h5 class="card-title">Aiuole con i colori del tramonto</h5>
+                      <h5 class="card-title"><b>Aiuole con i colori del tramonto</b></h5>
                       <p class="card-text">Progettazione aiuole condominiali<br> Alba Adriatica<br> 2018<br> Categoria: Aiuole fiorite</p>
                       <!-- Button trigger modal -->
                       <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#aiuola-tramonto">
@@ -520,7 +543,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-lg">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="aiuola-tramonto-Label">Aiuole con i colori del tramonto</h5>
+                              <h5 class="modal-title" id="aiuola-tramonto-Label"><b>Aiuole con i colori del tramonto</b></h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
@@ -608,7 +631,7 @@
                       </button>
                   </div>
                   <div class="card-body">
-                      <h5 class="card-title">Il giardino dei signori C.</h5>
+                      <h5 class="card-title"><b>Il giardino dei signori C.</b></h5>
                       <p class="card-text">Creazione giardino prviato<br> Folignano (AP)<br> 2018<br> Categoria: Piccoli giardini</p>
                       <!-- Button trigger modal -->
                       <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#giardino-signoriC">
@@ -620,7 +643,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-lg">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="giardino-signoriC-Label">Il giardino dei signori C.</h5>
+                              <h5 class="modal-title" id="giardino-signoriC-Label"><b>Il giardino dei signori C.</b></h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
@@ -688,7 +711,7 @@
                       </button>
                   </div>
                   <div class="card-body">
-                      <h5 class="card-title">Il terrazzo di G & C</h5>
+                      <h5 class="card-title"><b>Il terrazzo di G & C</b></h5>
                       <p class="card-text">Studio composizione floreale terrazzo<br> Pescara<br> 2019<br> Categoria: Terrazzi e balconi</p>
                       <!-- Button trigger modal -->
                       <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#terrazzo-GC">
@@ -700,7 +723,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-lg">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="terrazzo-GC-Label">Il terrazzo di G & C</h5>
+                              <h5 class="modal-title" id="terrazzo-GC-Label"><b>Il terrazzo di G & C</b></h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">

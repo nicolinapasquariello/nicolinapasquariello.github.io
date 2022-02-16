@@ -8,6 +8,11 @@
     src: url(font/Roboto-Regular.ttf);
 }
 
+@font-face {
+    font-family: brandon-grotesque;
+    src: url(font/brandon-grotesque.otf);
+}
+
 
 html {
     position: relative;
@@ -15,7 +20,8 @@ html {
     height: 100%;
 }
 
-body { padding-top: 70px; 
+body { 
+    padding-top: 70px; 
 }
 
 
@@ -74,11 +80,38 @@ body { padding-top: 70px;
     padding-bottom: 15px;
     margin-left:20px;
     margin-right:20px;
+    font-family: brandon-grotesque;
+    font-size: 18px;
+    letter-spacing: .01em;
+    line-height: 1.6em;
+    text-transform: none;
+    color: #222;
 }
 
+
+
+#filosofia{
+    margin-top: 30px;
+}
 #filosofia p{
     margin-bottom: 0px;
+    font-family: brandon-grotesque;
+    font-size: 18px;
+    letter-spacing: .01em;
+    line-height: 1.6em;
+    text-transform: none;
+    color: #222;
 }
+
+#filosofia ul{
+    font-family: brandon-grotesque;
+    font-size: 18px;
+    letter-spacing: .01em;
+    line-height: 1.6em;
+    text-transform: none;
+    color: #222;
+}
+
 
 
 .filosofia-titolo {
@@ -87,8 +120,6 @@ body { padding-top: 70px;
     font-size: 80px;
     letter-spacing: 4px;
 }
-
-
 
 .filosofia-sottotitolo{
     text-align: left;
@@ -104,7 +135,14 @@ body { padding-top: 70px;
 
 #progetti{
     margin-top: 30px;
+    font-family: brandon-grotesque;
+    font-size: 18px;
+    letter-spacing: .01em;
+    line-height: 1.6em;
+    text-transform: none;
+    color: #222;
 }
+
 
 .progetti-titolo{
     text-align: center;
@@ -137,6 +175,15 @@ body { padding-top: 70px;
     margin-right: auto;
     margin-bottom: 40px;
     width: 80%;
+}
+
+#contatti{
+    font-family: brandon-grotesque;
+    font-size: 18px;
+    letter-spacing: .01em;
+    line-height: 1.6em;
+    text-transform: none;
+    color: #222;
 }
 
 
