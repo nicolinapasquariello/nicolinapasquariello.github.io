@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Nicolina Pasquariello - Paesaggista</title>
+        <meta name="description" content="Sitoweb personale di Nicolina Pasqueriello - Paesaggista">
+        <link rel="icon" href="">
+    
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+        <link rel="stylesheet" href="style.css">
+        <style id="css" type="text/css"></style>
+
+       <!--Leaflet - mappa-->
+       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+       integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+       crossorigin=""/>
+       <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+       integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+       crossorigin=""></script>
+        
+        
+    </head>
+
+    <body >
+        <!--NAVBAR-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="immagini/logo-vecchio.png" width="auto" height="35" alt="Logo Nicolina Pasquariello - Paesaggista">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link single"  href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link single" href="filosofia.html">Divulgazione e formazione</a>
+                  </li>
+                  <!--<li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Filosofia
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="index.html#paesaggista">Chi è il Paesaggista?</a></li>
+                      <li><a class="dropdown-item" href="index.html#paesaggio">Cos'è il Paesaggio?</a></li>
+                      <li><a class="dropdown-item" href="index.html#associazione">Associazione Italiana Architetti del Paesaggio</a></li>
+                      <li><a class="dropdown-item" href="index.html#convenzione">Convenzione Europea del Paesaggio</a></li>
+                      <li><a class="dropdown-item" href="index.html#educazione">Educazione ambientale del Paesaggio</a></li>
+                    </ul>
+                  </li>-->
+                  <li class="nav-item">
+                    <a class="nav-link single" href="progetti.html">Progetti</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active single" aria-current="page" href="attività.html">Attività e Servizi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link single"  data-bs-toggle="modal" data-bs-target="#contatti">Contatti</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+          <!-- Modal Contatti-->
+          <div class="modal fade" id="contatti" tabindex="-1" aria-labelledby="contattiLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="contattiLabel">Contatti</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Se vuoi progettare o modificare il tuo spazio verde o se vuoi avere informazioni su corsi e  progetti educativi, contattami. Sarò felice di aiutarti nel percorso di educazione ambientale e fornirti tutte le informazioni di cui hai bisogno per curare il tuo spazio verde!
+                    </p>
+                    <ul>
+                      <li>
+                        <a href="tel:+393460044120"> +39 3460044120</a>
+                      </li>
+                      <li>
+                        <a href="mailto:nicolina.pasquariello85@gmail.com">E-Mail</a> o <a href="mailto:nicolina.pasquariello@archiworldpec.it">Pec</a>
+                      </li>
+                    </ul>
+                    <p>Sul mio profilo <a href="https://www.instagram.com/nicol_paesaggista/?hl=en" target="_blank">Instagram</a> puoi rimanere sempre aggiornato sulle novità e i progetti a cui lavoro.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+    <div id="attività-servizi" class="container">
+        <h2 class="as-titolo">Attività e Servizi</h2>
+        <div class="container" id="paesaggista">
+          <p>In questa sezione sono elencati tutti i servizi correlati o le attività parallele alla professione di paesaggista.</p>
+          <ul>
+            <li>
+              <b>Concorsi</b>
+            </li>
+            <li><b>Corsi di educazione ambientale e paesaggistica: Figura di esperto esterno</b></li>
+            <li><b>Corsi privati di progettazione del verde e di giardinaggio:</b></li>
+            <li><b>Servizio di “Coaching”:</b> servizio che prevede una consulenza paesaggistica, progettuale ed agronomica. Consiste nel pianificare degli incontri, in cui si eseguono: un sopralluogo, un'analisi delle necessità del cliente, fornitura di linee guida al fine di raggiungere l’obiettivo concordato con il cliente, supporto nella scelta dei materiali inerti e vegetali (visita nei centri di giardinaggio e vivai specializzati). Consigli sulla manutenzione e gestione dello spazio da realizzare.</li>
+            <li><b>Chiavi in mano:</b> collaboro con diverse ditte di giardinaggio in modo da offrire, in caso di necessità, oltre alla progettazione, la realizzazione dell’intero elaborato dalla a alla z. Grazie alla collaborazione con ditte di giardinaggio fornisco un servizio che mi permette di seguire lo sviluppo dalla progettazione alla sua realizzazione.
+            </li>
+          </ul>
+        </div>
+
+    </div>
+        
+
+        <!----------------FOOTER--------------
+        <div w3-include-html="footer.html"></div>--> 
+        <div class="footer">
+            <div id="logos">
+            <a class="footer-item" >
+                <img src="immagini/Instagram_icon.png" width="auto" height="25" alt="instagram-icon" target="_blank" class="instagram">
+            </a>
+            <a class="footer-item" href="index.html">
+                <img src="immagini/logo-vecchio.png" width="auto" height="25" alt="Logo Nicolina Pasquariello - Paesaggista" class="toindex">
+            </a>
+            </div>
+            <div class="copyright" align="center">
+            <p>© Copyright 2022 Nicolina Pasquariello Paesaggista - All Rights Reserved</p>
+            </div>
+        </div>
+    </body>
+
+     
+</html>

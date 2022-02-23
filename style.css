@@ -103,7 +103,7 @@ body {
     color: #222;
 }
 
-#filosofia ul{
+#filosofia ul, ol{
     font-family: brandon-grotesque;
     font-size: 18px;
     letter-spacing: .01em;
@@ -111,8 +111,6 @@ body {
     text-transform: none;
     color: #222;
 }
-
-
 
 .filosofia-titolo {
     text-align: center;
@@ -132,6 +130,46 @@ body {
 #paesaggista, #paesaggio, #associazione, #convenzione, #educazione {
     padding-top: 70px;
 }
+
+#attività_servizi{
+    margin-top: 30px;
+}
+#attività-servizi p{
+    margin-bottom: 0px;
+    font-family: brandon-grotesque;
+    font-size: 18px;
+    letter-spacing: .01em;
+    line-height: 1.6em;
+    text-transform: none;
+    color: #222;
+}
+
+
+#attività-servizi ul, ol{
+    font-family: brandon-grotesque;
+    font-size: 18px;
+    letter-spacing: .01em;
+    line-height: 1.6em;
+    text-transform: none;
+    color: #222;
+}
+
+.as-titolo {
+    text-align: center;
+    font-family: arbonne;
+    font-size: 80px;
+    letter-spacing: 4px;
+}
+
+.as-sottotitolo{
+    text-align: left;
+    font-family: arbonne;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #BA024F;
+}
+
+
 
 #progetti{
     margin-top: 30px;
