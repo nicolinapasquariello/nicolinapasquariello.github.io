@@ -89,8 +89,10 @@ body {
 
 #introduction-box{
     margin-top: 20px;
-    background-color: rgb(221, 221, 221);
-    /*background-image: url('immagini/rami-opacity2.png');
+    background-color: rgb(242, 242, 242);
+    
+    /*
+    background-image: url('immagini/white-paper-texture3.jpg');
     background-repeat: no-repeat;
     background-position: right center;*/
 }
