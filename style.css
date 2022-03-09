@@ -46,7 +46,6 @@ body {
     width: 100%;
 }
 
-
 #carousel-homepage .carousel-item img {
     object-fit:cover;
     max-height:500px;
@@ -66,6 +65,27 @@ body {
     margin-bottom: 100px;
     letter-spacing: 3px;
 }
+
+
+
+#carousel-progetti .carousel .carousel-item { 
+    width: 100%;
+}
+
+#carousel-progetti .carousel-item img {
+    object-fit:cover;
+    max-height:400px;
+    opacity: 0.6;
+    min-height: 300px;
+}
+
+#carousel-progetti .carousel-caption h5{
+    font-size: 90px;
+    font-family: arbonne;
+    letter-spacing: 3px;
+    margin-bottom: 100px;
+}
+
 
 #introduction-box{
     margin-top: 20px;
@@ -87,6 +107,8 @@ body {
     text-transform: none;
     color: #222;
 }
+
+
 
 
 
@@ -127,11 +149,13 @@ body {
     color: #BA024F;
 }
 
-#paesaggista, #paesaggio, #associazione, #convenzione, #educazione {
-    padding-top: 70px;
+#paesaggista, #paesaggio, #formazione, #associazioni {
+    padding-top: 50px;
 }
 
-#attività_servizi{
+
+
+#attività-servizi{
     margin-top: 30px;
 }
 #attività-servizi p{
@@ -143,7 +167,6 @@ body {
     text-transform: none;
     color: #222;
 }
-
 
 #attività-servizi ul, ol{
     font-family: brandon-grotesque;
@@ -169,9 +192,12 @@ body {
     color: #BA024F;
 }
 
+#corsi-ed-amb, #corsi-privati, #servizio-coaching, #chiavi-mano{
+    padding-top: 50px;
+}
 
 
-#progetti{
+.progetti{
     margin-top: 30px;
     font-family: brandon-grotesque;
     font-size: 18px;
@@ -198,11 +224,11 @@ body {
 }
 
 #grandi-spazi, #piccoli-spazi{
-    padding-top: 70px;
+    padding-top: 40px;
 }
 
 .card-body{
-    background-color: rgb(221, 221, 221);
+    background-color: rgba(0,0,0,.03);
 }
 
 #map { 
