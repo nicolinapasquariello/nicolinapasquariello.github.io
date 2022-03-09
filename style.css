@@ -90,9 +90,9 @@ body {
 #introduction-box{
     margin-top: 20px;
     background-color: rgb(221, 221, 221);
-    background-image: url('immagini/rami-opacity2.png');
+    /*background-image: url('immagini/rami-opacity2.png');
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: right center;*/
 }
 
 .introduction-text{
@@ -112,10 +112,10 @@ body {
 
 
 
-#filosofia{
+#divulgazione{
     margin-top: 30px;
 }
-#filosofia p{
+#divulgazione p{
     margin-bottom: 0px;
     font-family: brandon-grotesque;
     font-size: 18px;
@@ -125,7 +125,7 @@ body {
     color: #222;
 }
 
-#filosofia ul, ol{
+#divulgazione ul, ol{
     font-family: brandon-grotesque;
     font-size: 18px;
     letter-spacing: .01em;
@@ -134,14 +134,14 @@ body {
     color: #222;
 }
 
-.filosofia-titolo {
+.divulgazione-titolo {
     text-align: center;
     font-family: arbonne;
     font-size: 80px;
     letter-spacing: 4px;
 }
 
-.filosofia-sottotitolo{
+.divulgazione-sottotitolo{
     text-align: left;
     font-family: arbonne;
     font-size: 40px;
@@ -239,6 +239,14 @@ body {
     margin-right: auto;
     margin-bottom: 40px;
     width: 80%;
+}
+
+
+.modal-contatti-titolo{
+    font-family: arbonne;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight:bold;
 }
 
 #contatti{
@@ -342,7 +350,7 @@ body {
         margin-top: 10px !important;
     }
 
-    .filosofia-sottotitolo{
+    .divulgazione-sottotitolo{
         font-size: 30px !important;
     }
 
