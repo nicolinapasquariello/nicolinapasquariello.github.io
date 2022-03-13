@@ -71,6 +71,13 @@ a{
     letter-spacing: 3px;
 }
 
+.home-sottotitolo{
+    font-family: arbonne;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #4c6753
+}
+
 
 
 #carousel-progetti .carousel .carousel-item { 
@@ -119,10 +126,10 @@ a{
 
 
 
-#divulgazione{
+#about{
     margin-top: 30px;
 }
-#divulgazione p{
+#about p{
     margin-bottom: 0px;
     font-family: brandon-grotesque;
     font-size: 18px;
@@ -132,7 +139,7 @@ a{
     color: #222;
 }
 
-#divulgazione ul, ol{
+#about ul, ol{
     font-family: brandon-grotesque;
     font-size: 18px;
     letter-spacing: .01em;
@@ -141,14 +148,14 @@ a{
     color: #222;
 }
 
-.divulgazione-titolo {
+.about-titolo {
     text-align: center;
     font-family: arbonne;
     font-size: 80px;
     letter-spacing: 4px;
 }
 
-.divulgazione-sottotitolo{
+.about-sottotitolo{
     text-align: left;
     font-family: arbonne;
     font-size: 40px;
@@ -364,7 +371,14 @@ a{
         margin-top: 10px !important;
     }
 
-    .divulgazione-sottotitolo{
+    .lavoro{
+        margin-top: 30px;
+    }   
+
+    .about-titolo{
+        font-size: 50px !important;
+    }
+    .about-sottotitolo{
         font-size: 30px !important;
     }
 
@@ -374,6 +388,24 @@ a{
     .introduction-text{
         margin-left:10px;
         margin-right:5px;
+    }
+
+    .as-titolo{
+        font-size: 50px !important;
+    }
+    .as-sottotitolo{
+        font-size: 30px !important;
+    }
+
+    .progetti-titolo{
+        font-size: 50px !important;
+    }
+    .progetti-sottotitolo{
+        font-size: 30px !important;
+        margin-top:20px;
+    }
+    #grandi-spazi{
+        padding-top: 0px !important;
     }
 
     .contatti-titolo{
