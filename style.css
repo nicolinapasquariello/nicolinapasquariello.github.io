@@ -237,7 +237,7 @@ a{
     color: #4c6753;
 }
 
-#grandi-spazi, #piccoli-spazi{
+#grandi-spazi, #piccoli-spazi, #concorsi{
     padding-top: 40px;
 }
 
@@ -397,6 +397,10 @@ a{
         font-size: 30px !important;
     }
 
+    #carousel-progetti .carousel-caption h5{
+        margin-bottom: 50px;
+    }
+
     .progetti-titolo{
         font-size: 50px !important;
     }
@@ -407,6 +411,14 @@ a{
     #grandi-spazi{
         padding-top: 0px !important;
     }
+    #grandi-spazi p{
+        margin-left: 10px;
+    }
+
+    #piccoli-spazi p{
+        margin-left: 10px;
+    }
+
 
     .contatti-titolo{
         font-size: 50px;
