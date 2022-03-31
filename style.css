@@ -373,6 +373,86 @@ a{
     .navbar-title{
         display: none;
     }   
+
+
+
+
+
+
+
+    .carousel-item img {
+        max-height:250px;
+        min-height: 250px;
+    }
+    .carousel-caption h5{
+        font-size: 55px !important;
+    }   
+    .carousel-caption p{
+        font-size: 40px !important;
+        margin-bottom: 120px !important;
+        margin-top: 10px !important;
+    }
+
+    .lavoro{
+        margin-top: 30px;
+    }   
+
+    .about-titolo{
+        font-size: 50px !important;
+    }
+    .about-sottotitolo{
+        font-size: 30px !important;
+    }
+
+    #introduction-box{
+      background-image: none;
+    }
+    .introduction-text{
+        margin-left:10px;
+        margin-right:5px;
+    }
+
+    .as-titolo{
+        font-size: 50px !important;
+    }
+    .as-sottotitolo{
+        font-size: 30px !important;
+    }
+
+    #carousel-progetti .carousel-caption h5{
+        margin-bottom: 50px;
+    }
+
+    .progetti ul{
+        margin-left:10px;
+    }
+
+    .progetti-titolo{
+        font-size: 50px !important;
+    }
+    .progetti-sottotitolo{
+        font-size: 30px !important;
+        margin-top:20px;
+        margin-left:10px;
+    }
+    #grandi-spazi{
+        padding-top: 0px !important;
+    }
+    #grandi-spazi p{
+        margin-left: 10px;
+    }
+
+    #piccoli-spazi p{
+        margin-left: 10px;
+    }
+
+    .contatti-titolo{
+        font-size: 40px;
+        margin-top:30px;
+    }
+    .contatti-sottotitolo{
+      font-size: 35px;
+    }
 }
 
 
@@ -444,7 +524,7 @@ a{
     }
 
     .contatti-titolo{
-        font-size: 50px;
+        font-size: 40px;
         margin-top:30px;
     }
     .contatti-sottotitolo{
