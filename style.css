@@ -131,10 +131,6 @@ a{
 
 
 
-
-#about{
-    margin-top: 30px;
-}
 #about p{
     margin-bottom: 0px;
     font-family: brandon-grotesque;
@@ -160,6 +156,9 @@ a{
     font-size: 80px;
     letter-spacing: 4px;
     margin-bottom: 10px!important;
+    background-image: url(immagini/background-rami.png);
+    background-repeat: no-repeat;
+    padding-top:100px; padding-bottom:100px
 }
 
 .about-sottotitolo{
@@ -176,9 +175,7 @@ a{
 
 
 
-#attività-servizi{
-    margin-top: 30px;
-}
+
 #attività-servizi p{
     margin-bottom: 0px;
     font-family: brandon-grotesque;
@@ -203,7 +200,10 @@ a{
     font-family: arbonne;
     font-size: 80px;
     letter-spacing: 4px;
-    margin-bottom: 10px!important;
+    background-image: url(immagini/background-rami.png);
+    background-repeat: no-repeat;
+    padding-top:100px; 
+    padding-bottom:100px
 }
 
 .as-sottotitolo{
@@ -215,7 +215,7 @@ a{
 }
 
 #corsi-ed-amb, #corsi-privati, #servizio-coaching, #chiavi-mano{
-    padding-top: 50px;
+    padding-top: 50px!important;
 }
 
 
