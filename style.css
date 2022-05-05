@@ -219,6 +219,19 @@ a{
 }
 
 
+#carousel-attività-bambini .carousel-item img { 
+      object-fit:cover;
+      max-height: 350px;
+      min-height: 350px;
+  }
+
+  #carousel-attività-adulti .carousel-item img { 
+    object-fit:cover;
+    max-height: 350px;
+    min-height: 350px;
+}
+
+
 .progetti{
     margin-top: 30px;
     font-family: brandon-grotesque;
