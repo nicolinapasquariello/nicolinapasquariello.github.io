@@ -53,6 +53,8 @@ a{
     margin-left: 30px;
 }
 
+
+
 #carousel-homepage .carousel .carousel-item { 
     width: 100%;
 }
@@ -68,6 +70,7 @@ a{
     font-size: 90px;
     font-family: arbonne;
     letter-spacing: 3px;
+    color: #5a5a5a;
 }
 
 #carousel-homepage .carousel-caption p{
@@ -75,6 +78,7 @@ a{
     font-family: arbonne;
     margin-bottom: 100px;
     letter-spacing: 3px;
+    color: #4c6753;
 }
 
 .home-sottotitolo{
@@ -102,6 +106,7 @@ a{
     font-family: arbonne;
     letter-spacing: 3px;
     margin-bottom: 100px;
+    color: #5a5a5a;
 }
 
 
@@ -151,14 +156,11 @@ a{
 }
 
 .about-titolo {
-    text-align: center;
-    font-family: arbonne;
-    font-size: 80px;
-    letter-spacing: 4px;
-    margin-bottom: 10px!important;
-    background-image: url(immagini/background-rami.png);
-    background-repeat: no-repeat;
-    padding-top:100px; padding-bottom:100px
+    font-family: arbonne !important;
+    font-size: 80px !important;
+    letter-spacing: 4px !important;
+    color:#4c6753 !important;
+    padding-top:30px !important; 
 }
 
 .about-sottotitolo{
@@ -196,14 +198,12 @@ a{
 }
 
 .as-titolo {
-    text-align: center;
-    font-family: arbonne;
-    font-size: 80px;
-    letter-spacing: 4px;
-    background-image: url(immagini/background-rami.png);
-    background-repeat: no-repeat;
-    padding-top:100px; 
-    padding-bottom:100px
+    font-family: arbonne !important;
+    font-size: 80px !important;
+    letter-spacing: 4px !important;
+   color: #4c6753!important;
+    padding-top:30px!important;
+  
 }
 
 .as-sottotitolo{
@@ -283,36 +283,18 @@ img.card-img-top {
 }
 
 
-/*.modal-contatti-titolo{
-    font-family: arbonne;
-    font-size: 40px;
-    letter-spacing: 4px;
-    font-weight:bold;
-}
-
-#contatti{
-    font-family: brandon-grotesque;
-    font-size: 18px;
-    letter-spacing: .01em;
-    line-height: 1.6em;
-    text-transform: none;
-    color: #222;
-}*/
-
 
 .contatti-titolo{
-    text-align: center;
     font-family: arbonne !important;
-    font-size: 60px;
-    letter-spacing: 4px;
-    margin-top:30px;
+    font-size: 43px;
+    letter-spacing: 3px;
+    color: #5a5a5a;
 }
 
 .contatti-sottotitolo{
-    text-align: center;
     font-family: arbonne !important;
     font-size: 40px;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     color: #4c6753;
 }
 
