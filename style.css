@@ -237,6 +237,12 @@ a{
     min-height: 350px;
 }
 
+#carousel-coaching .carousel-item img { 
+    object-fit:cover;
+    max-height: 350px;
+    min-height: 350px;
+}
+
 
 .progetti{
     margin-top: 30px;
