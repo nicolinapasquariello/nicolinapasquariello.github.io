@@ -110,14 +110,20 @@ a{
 }
 
 
+.btn-link {
+    color: #57755f!important;
+    
+    
+}
+.btn-link:hover{
+    color: #57755f!important;;
+    background-color: none;
+    border-color: none; /*set the color you want here*/
+}
+
 #introduction-box{
     margin-top: 20px;
     background-color: #f0f4f1;
-    
-    /*
-    background-image: url('immagini/white-paper-texture3.jpg');
-    background-repeat: no-repeat;
-    background-position: right center;*/
 }
 
 .introduction-text{
