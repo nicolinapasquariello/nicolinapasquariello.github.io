@@ -161,6 +161,11 @@ a{
     color: #222;
 }
 
+.logo-titolo{
+    display: inline;
+    width:20%;
+}
+
 .about-titolo {
     font-family: arbonne !important;
     font-size: 80px !important;
@@ -399,8 +404,13 @@ background-color:#d3ded6;margin-top: 15px; margin-bottom: 15px; margin-left: 30p
         margin-top: 30px;
     }   
 
+    .logo-titolo{
+        display:none;
+    }
+
     .about-titolo{
         font-size: 35px !important;
+        text-align: center;
     }
     .about-sottotitolo{
         font-size: 30px !important;
@@ -431,6 +441,7 @@ background-color:#d3ded6;margin-top: 15px; margin-bottom: 15px; margin-left: 30p
 
     .as-titolo{
         font-size: 50px !important;
+        text-align: center;
     }
     .as-sottotitolo{
         font-size: 25px !important;
@@ -482,10 +493,15 @@ background-color:#d3ded6;margin-top: 15px; margin-bottom: 15px; margin-left: 30p
 
     .lavoro{
         margin-top: 30px;
-    }   
+    }  
+    
+    .logo-titolo{
+        display:none;
+    }
 
     .about-titolo{
         font-size: 40px !important;
+        text-align: center;
     }
     .about-sottotitolo{
         font-size: 30px !important;
@@ -501,6 +517,7 @@ background-color:#d3ded6;margin-top: 15px; margin-bottom: 15px; margin-left: 30p
 
     .as-titolo{
         font-size: 50px !important;
+        text-align: center;
     }
     .as-sottotitolo{
         font-size: 30px !important;
@@ -564,8 +581,13 @@ background-color:#d3ded6;margin-top: 15px; margin-bottom: 15px; margin-left: 30p
         margin-top: 30px;
     }   
 
+    .logo-titolo{
+        display:none;
+    }
+
     .about-titolo{
         font-size: 40px !important;
+        text-align: center;
     }
     .about-sottotitolo{
         font-size: 30px !important;
@@ -581,6 +603,7 @@ background-color:#d3ded6;margin-top: 15px; margin-bottom: 15px; margin-left: 30p
 
     .as-titolo{
         font-size: 50px !important;
+        text-align: center;
     }
     .as-sottotitolo{
         font-size: 30px !important;
