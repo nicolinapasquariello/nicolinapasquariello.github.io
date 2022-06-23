@@ -3,10 +3,6 @@
     src: url(font/arbonne.ttf);
 }
 
-@font-face {
-    font-family: roboto;
-    src: url(font/Roboto-Regular.ttf);
-}
 
 @font-face {
     font-family: brandon-grotesque;
@@ -342,7 +338,7 @@ img.card-img-top {
     /*background-color: #56755f;*/
     color: white;
     text-align: center;
-    font-family: roboto;
+    font-family: brandon-grotesque;
     padding: 5px;
     font-size: 11px;
     padding-top: 15px; 
